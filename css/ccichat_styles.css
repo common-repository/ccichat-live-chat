@@ -1,0 +1,33 @@
+/*ccichat css*/
+#ccichat_ui_container{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+#ccichat_ui_content {
+    width: 70%;
+    background-color: #FFFFFF;
+    padding:30px;
+    box-shadow: 0px 0px 8px 5px rgb(23, 145, 237,.12);
+    margin: 30px auto 30px auto;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+#ccichat_ui_content img {
+    max-width: 100%;
+    height: auto;
+}
+#ccichat_ui_content h2{ 
+    font-weight: 800;
+}
+.ccichat_ui_row{
+    margin: 30px 0 30px 0;
+}
+.ccichat_ui_row input {
+    width: 220px;
+    margin-left: 20px;
+}
+#ccichat_dashboard_button {
+    display: none;
+}
